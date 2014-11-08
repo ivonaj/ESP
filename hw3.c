@@ -32,7 +32,7 @@ int main()
   //printf("\n%d\n", mask);
   ip_address = ip_address_2 & mask;
   //printf("%d\n", ip_address_netzwerk);
-  mask =~ mask; //XOR: mask = mask ^ mask;
+  mask =~ mask; //NOT: mask = mask ^ mask;
   ip_address = ip_address | (ip_address_1 & mask); 
   
   
