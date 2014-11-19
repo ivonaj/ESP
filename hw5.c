@@ -1,15 +1,4 @@
-//------------------------------------------------------------------------------
-// hw5.c
-//
-// File reading and reversing to the output.
-//
-// Group: - 
-//
-// Authors: Peter Lorenz
-//
-// Latest Changes:
-//------------------------------------------------------------------------------
-//
+
 // STR + D EOF erzeugen
 #include <stdio.h>
 #include <stdlib.h> //for malloc
