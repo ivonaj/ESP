@@ -15,6 +15,7 @@
 #include <stdlib.h> //for malloc
 #define BUFFER 2
 #define ERR_OUT_OF_MEM 1
+#define ERROR_MESSAGE "Out of memory!\n"
 
 
 //------------------------------------------------------------------------------
@@ -30,7 +31,7 @@ int readInput(char **output, int *length)
   *output = malloc(sizeof(char) * BUFFER);
   if(*output == NULL)
   {
-    printf("Out of memory!\n");
+    printf(ERROR_MESSAGE);
     return ERR_OUT_OF_MEM;
   }
 
@@ -45,17 +46,19 @@ int readInput(char **output, int *length)
     }
     else
     {
-      printf("Out of memory!\n");
+      printf(ERROR_MESSAGE);
       free(*output);
       return ERR_OUT_OF_MEM;
     }
   }
 
   (*output)[len] = '\0';
-  printf("%s", *output);
+  //printf("%s", *output);
   *length = len; //needed to flee from scope...
   return 0;
 }
+
+
 
 
 //------------------------------------------------------------------------------
