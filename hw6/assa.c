@@ -12,7 +12,6 @@
 // such as the size of the bitmap, the calculated points per second, gravity or
 // if and how strong wind should blow.
 //
-// Group: Group ID: 10619, study assistant Daniel Ellmayr
 //
 //-----------------------------------------------------------------------------
 //
