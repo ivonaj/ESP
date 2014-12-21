@@ -14,9 +14,6 @@
 //
 // Group: Group ID: 10619, study assistant Daniel Ellmayr
 //
-// Authors: Peter Lorenz 1114658
-//          Benjamin Franz Herber Rauch 1431077
-//          Jan Schlacher 1430256
 //-----------------------------------------------------------------------------
 //
 
