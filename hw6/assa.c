@@ -38,7 +38,7 @@
 //returns
 #define SUCCESS             0
 #define ERROR_ARGUMENTS     1
-#define ERROR_OUT_OF_MEMORY 2
+#define ERROR_OUT_OF_MEMORY 2  // fsdfasdfasdfsdfasdfsdf
 #define ERROR_OPEN_FILE     3
 #define ERROR_SPEED         4
 
